@@ -1,10 +1,12 @@
 package com.market.connect.models.entities;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
 
+@Builder
 @Data
 @Entity
 @Table(name = "customers")
